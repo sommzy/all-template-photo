@@ -43,8 +43,13 @@ img:hover {
     border: 5px solid hotpink;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:600px) {
     img {
         width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .flex {
+        display: block;
     }
 }
